@@ -1,0 +1,61 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    height:100%;
+}
+.ban{
+    max-width: 90%;
+    margin: auto;
+    background-image:linear-gradient(to right,red,purple,blue);
+    min-height: 100%;
+    border-radius: 10px;
+}
+  
+/* #btn1{
+    background-color: indigo;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+} */
+body{
+    background: url('../assets/images/fond.jpg');
+    background-repeat: no-repeat;
+}
+.menu{
+    color:blueviolet;
+}
+.liste{
+    width:300px;
+    height: 400px;
+    overflow-y:scroll;
+    scrollbar-color:black;
+    scrollbar-width: thin;
+}
+.story{
+    width: 100px;
+    height: 150px;
+    overflow-y:scroll;
+    scrollbar-color:black;
+    scrollbar-width: thin;
+   /* border: solid;
+    border-color: indigo;*/
+}
+.sto{
+    margin-left: 50px;
+    border: solid;
+    border-radius: 20px;
+    border-color: indigo;
+    max-height: 150px;
+    max-width: 500px;
+    
+}
+.profil{
+    /*margin-left: 200px;*/
+    width: 300px;
+}
+.inp{
+    width: 500px;
+    border: solid;
+    
+}
